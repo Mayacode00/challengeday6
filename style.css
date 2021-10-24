@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: #000;
+  color: #fff;
+  overflow-x: hidden;
+}
+.landingpage {
+  height: 60vh;
+  width: 100vw;
+}
+nav {
+  color: #fff;
+  background: #85848448;
+  position: static;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+li {
+  list-style-type: none;
+  margin: 20px;
+}
+.container {
+  display: flex;
+  height: 600px;
+}
+.note {
+  width: 700px;
+  margin: 150px;
+}
+.tamara,
+.devs {
+  color: #680753;
+}
+img {
+  height: 100%;
+  width: 700px;
+  object-fit: cover;
+}
+.about {
+  height: 90vh;
+  background: #0c0c0c;
+}
+.container2 {
+  display: flex;
+  width: 70%;
+  height: 90%;
+  margin: auto;
+  color: #ffff;
+}
+.box {
+  width: 550px;
+  height: 100%;
+  margin-top: 30px;
+}
+.img2 {
+  width: 90%;
+  height: 100%;
+  object-fit: cover;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 50px;
+}
+h4 {
+  font-size: 25px;
+  font-style: italic;
+  margin-top: 40px;
+}
+.about-me {
+  margin-top: 10px;
+  font-size: 20px;
+}
+.hire {
+  background: #680753;
+  padding: 8px;
+  width: 100px;
+  margin: 70px 0;
+  text-align: center;
+  border-radius: 5px;
+}
+.container3 {
+  display: flex;
+  margin: 150px;
+}
+.box2 {
+  height: 300px;
+  width: 100%;
+  justify-content: center;
+  margin: 10px;
+  background: #0c0c0c;
+}
+.our-service {
+  height: 90vh;
+  text-align: center;
+  color: #ffffff;
+}
+.note2 {
+  font-size: 15px;
+  margin: 30px;
+}
+.hire2 {
+  background: #680753;
+  padding: 8px;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+}
+footer {
+  height: 90vh;
+}
+.container4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+.design {
+  height: 40%;
+  background: #0c0c0c;
+}
+.note3,
+.contact {
+  margin: 55px;
+}
+.social {
+  font-size: 20px;
+  line-height: 2;
+}
+.hire3 {
+  background: #680753;
+  padding: 8px;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  border-radius: 15px;
+}
+/* pseudo element */
+li:hover {
+  color: #680753;
+  transition: all 0.6s ease-in;
+  cursor: pointer;
+}
+.hire,
+.hire2,
+.hire3:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 450px) {
+  main {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  li {
+    font-size: 8px;
+    margin: 10px;
+  }
+  .container {
+    height: 200px;
+    width: 100%;
+  }
+  .note {
+    width: 250px;
+    margin: 40px;
+  }
+  .tamara {
+    font-size: 20px;
+    margin: 5px;
+  }
+  img {
+    height: 100%;
+    width: 200px;
+    object-fit: cover;
+  }
+  .hello {
+    font-size: 10px;
+  }
+  .about {
+    height: 30vh;
+    background: #0c0c0c;
+  }
+  .box {
+    width: 200px;
+    height: 100%;
+    margin-top: 30px;
+  }
+  .img2 {
+    width: 90%;
+    height: 85%;
+    object-fit: cover;
+  }
+  h1 {
+    font-size: 15px;
+    margin-top: 5px;
+  }
+  h4 {
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .about-me {
+    margin-top: 10px;
+    font-size: 8px;
+  }
+  .hire {
+    padding: 2px;
+    font-size: 8px;
+    width: 50px;
+    margin: 20px 0;
+    border-radius: 2px;
+  }
+  .our-service {
+    height: 100%;
+    margin: 30px;
+  }
+  .container3 {
+    margin: 10px;
+    flex-wrap: wrap;
+  }
+  .box2 {
+    height: 120px;
+    width: 100%;
+    justify-content: center;
+    margin: 10px;
+    background: #0c0c0c;
+  }
+  .note2 {
+    font-size: 8px;
+    margin: 20px;
+  }
+  .hire2,
+  .hire3 {
+    padding: 2px;
+    width: 50px;
+    font-size: 8px;
+    border-radius: 5px;
+  }
+  footer {
+    height: 80vh;
+  }
+  .design {
+    height: 20%;
+    font-size: 10px;
+  }
+  .note3,
+  .contact {
+    margin: 30px;
+  }
+  .social {
+    font-size: 10px;
+    line-height: 2;
+  }
+  .contact-us{
+    font-size: 15px;
+    margin: 10px;
+  }
+}
