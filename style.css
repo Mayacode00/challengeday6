@@ -16,7 +16,7 @@ body {
 nav {
   color: #fff;
   background: #85848448;
-  position: static;
+  width: 100%;
 }
 ul {
   display: flex;
@@ -29,6 +29,7 @@ li {
 .container {
   display: flex;
   height: 600px;
+  width: 100%;
 }
 .note {
   width: 700px;
@@ -46,10 +47,11 @@ img {
 .about {
   height: 90vh;
   background: #0c0c0c;
+  width: 100%;
 }
 .container2 {
   display: flex;
-  width: 70%;
+  width: 80%;
   height: 90%;
   margin: auto;
   color: #ffff;
@@ -154,7 +156,7 @@ li:hover {
 .hire3:hover {
   cursor: pointer;
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
   main {
     overflow-x: hidden;
     width: 100%;
@@ -213,7 +215,7 @@ li:hover {
     padding: 2px;
     font-size: 8px;
     width: 50px;
-    margin: 20px 0;
+    margin: 30px 0;
     border-radius: 2px;
   }
   .our-service {
@@ -243,7 +245,7 @@ li:hover {
     border-radius: 5px;
   }
   footer {
-    height: 80vh;
+    height: 70vh;
   }
   .design {
     height: 20%;
@@ -257,8 +259,56 @@ li:hover {
     font-size: 10px;
     line-height: 2;
   }
-  .contact-us{
+  .contact-us {
     font-size: 15px;
     margin: 10px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  nav {
+    width: 100%;
+  }
+  li {
+    font-size: 15px;
+  }
+  .container {
+    height: 400px;
+  }
+  img {
+    width: 300px;
+    height: 100%;
+  }
+  .note {
+    margin: 70px;
+  }
+  .about {
+    height: 50vh;
+  }
+  .about-me {
+    font-size: 15px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .our-service {
+    height: 100%;
+  }
+  .container3 {
+    margin: 25px;
+  }
+  .note2 {
+    font-size: 13px;
+  }
+  .hire2 {
+    font-size: 13px;
+    padding: 5px;
+    width: 60px;
+    border-radius: 5px;
+  }
+  footer {
+    height: 100vh;
+  }
+  .design {
+    height: 30%;
   }
 }
